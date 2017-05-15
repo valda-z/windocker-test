@@ -1,12 +1,11 @@
-﻿{
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-  },
-  "variables": {
-  },
-  "resources": [
-  ],
-  "outputs": {
-  }
-}
+﻿FROM microsoft/dotnet:1.1.2-runtime-nanoserver
+
+COPY ./target /app
+WORKDIR /app
+
+EXPOSE 80/tcp
+
+ENV ASPNETCORE_URLS http://+:80
+
+ENTRYPOINT dotnet /app/windockertest.dll
+
