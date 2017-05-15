@@ -7,4 +7,4 @@ example for deploying Application Gateway with VM's scale set for demonstrating 
 
 
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fvalda-z%2Fwindocker-test_2Fmaster_2Finfra%2Fazuredeploy.json)
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fvalda-z%2Fwindocker-test%2Fmaster%2Finfra%2Fazuredeploy.json)
